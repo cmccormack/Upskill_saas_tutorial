@@ -3,7 +3,7 @@
 $(document).on('turbolinks:load', function () {
   
   var theForm = $('#pro_form');
-  var submitBtn = $('#form-submit-btn');
+  var submitBtn = $('#form-signup-btn');
   
   // Set Stripe Public Key - needs to be done prior to sending CC info.
   Stripe.setPublishableKey( $('meta[name="stripe-key"]').attr('content') );
